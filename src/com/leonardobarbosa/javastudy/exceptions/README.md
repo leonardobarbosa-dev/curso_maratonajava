@@ -17,3 +17,10 @@
    - UncheckedPropagationDemo
 
 3. Checked Exceptions
+   - CheckedExceptionBasic
+   - IOExceptionExample
+   - FileNotFoundHandling
+   - ThrowsKeywordExample
+   - CheckedExceptionBasic
+
+4. 
