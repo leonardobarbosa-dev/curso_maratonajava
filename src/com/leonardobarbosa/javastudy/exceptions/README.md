@@ -23,4 +23,9 @@
    - ThrowsKeywordExample
    - CheckedExceptionBasic
 
-4. 
+4. Throwing
+   - ThrowKeywordBasic
+   - IllegalArgumentExample
+   - CustomValidationThrow
+   - BusinessRuleValidation
+   - ThrowVsThrowsExample

@@ -23,7 +23,7 @@ public class CheckedExceptionPropagation {
             System.out.println("Tratado no main");
         }
     }
-
+    
     public static void readFileOne() throws FileNotFoundException {
         readFileTwo();
     }
