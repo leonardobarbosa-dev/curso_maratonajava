@@ -10,6 +10,7 @@ Review order:
     - HandledExceptionFlow
     - FinallyBlockExample
     - MultipleCatchFlowExample
+    - TryWithResourcesExample
 
 ---
 
@@ -50,3 +51,5 @@ Review order:
 ---
 
 6. error
+   - StackOverflowErrorExample
+   - OutOfMemoryErrorExample
