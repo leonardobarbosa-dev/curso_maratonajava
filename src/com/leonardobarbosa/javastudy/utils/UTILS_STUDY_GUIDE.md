@@ -12,6 +12,11 @@ Review order:
    - RegexBasicsExample
 
 2. Wrappers
+   - WrapperBasicsExample
+   - AutoboxingExample
+   - WrapperMethodsExample
+   - WrapperCachingExample
+   - NullHandlingExample
 
 3. Numbers
 
