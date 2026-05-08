@@ -25,6 +25,8 @@ Review order:
 5. Dates
    - LegacyDateExample
    - LegacyCalendarExample
+   - LocalDateExample
+   - LocalTimeExample
 
 6. Random
 
