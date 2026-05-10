@@ -27,6 +27,9 @@ Review order:
    - LegacyCalendarExample
    - LocalDateExample
    - LocalTimeExample
+   - LocalDateTimeExample
+   - ZonedDateTimeExample
+   - InstantExample
 
 6. Random
 
