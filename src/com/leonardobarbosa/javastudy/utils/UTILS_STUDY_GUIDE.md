@@ -30,6 +30,7 @@ Review order:
    - LocalDateTimeExample
    - ZonedDateTimeExample
    - InstantExample
+   - DurationPeriodExample
 
 6. Random
 

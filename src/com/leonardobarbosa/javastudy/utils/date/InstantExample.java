@@ -30,6 +30,9 @@ public class InstantExample {
         Instant end = Instant.now();
 
         long ms = end.toEpochMilli() - init.toEpochMilli();
+        /*
+        toEpochMilli() = converte Instant em milissegundos desde 1970 (UTC)
+         */
         System.out.println("Tempo: " + ms + "ms | soma= " + sum);
 
     }
