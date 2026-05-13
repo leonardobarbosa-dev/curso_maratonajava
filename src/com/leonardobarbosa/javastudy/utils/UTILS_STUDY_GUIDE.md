@@ -31,6 +31,8 @@ Review order:
    - ZonedDateTimeExample
    - InstantExample
    - DurationPeriodExample
+   - DateFormattingExample
+   - DateOperationsExample
 
 6. Random
 

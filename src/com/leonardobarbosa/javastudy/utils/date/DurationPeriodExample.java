@@ -23,6 +23,11 @@ public class DurationPeriodExample {
         LocalTime end = LocalTime.now().plusHours(14);
         Duration duration = Duration.between(start, end);
         System.out.println(duration);
+        /*
+        LocalTime não sabe que virou o dia, então se .now() for 18:00 + 14hrs = 08:00
+        O java faz 08:00 - 18:00 que resulta no retorno negativo -10hrs
+        (O correto seria usar LocalDateTime)
+         */
 
         // Duration (diretamente)
         Duration durationOne = Duration.ofHours(3);
@@ -30,7 +35,7 @@ public class DurationPeriodExample {
         Duration durationThree = Duration.of(3, ChronoUnit.MINUTES);
         System.out.println(durationThree);
 
-        // Duration com isntant
+        // Duration com instant
         Instant instantOne = Instant.now();
         Instant instantTwo = instantOne.plusSeconds(600);
         Duration durationInst = Duration.between(instantOne, instantTwo);
@@ -42,9 +47,9 @@ public class DurationPeriodExample {
          */
 
         //Period (baseado em calendário)
-        LocalDate birthday = LocalDate.of(1999, 4, 4);
+        LocalDate birth = LocalDate.of(1999, 4, 4);
         LocalDate now = LocalDate.now();
-        Period age = Period.between(birthday, now);
+        Period age = Period.between(birth, now);
         System.out.println(age);
 
         // Period (diretamente)
@@ -56,8 +61,8 @@ public class DurationPeriodExample {
 
         /**
          * Period e Duration não se misturam
-         * Period não funciona com LocalTime/Instant
          * Duration não funciona com LocalDate
+         * Period não funciona com LocalTime/Instant
          */
 
         // ChronoUnit.between() = diferença em unidade única
@@ -67,7 +72,7 @@ public class DurationPeriodExample {
         System.out.println("Meses até o Natal: " + monthsUntilChristmas);
 
         // Negativos quando a primeira data é depois da segunda
-        long negative = ChronoUnit.DAYS.between(now, birthday);
+        long negative = ChronoUnit.DAYS.between(now, birth);
         System.out.println("Dias (negativo): " + negative);
     }
 }
