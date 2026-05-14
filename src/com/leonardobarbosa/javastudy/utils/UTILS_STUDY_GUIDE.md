@@ -33,6 +33,7 @@ Review order:
    - DurationPeriodExample
    - DateFormattingExample
    - DateOperationsExample
+   - LegacyToNewApiExample
 
 6. Random
 

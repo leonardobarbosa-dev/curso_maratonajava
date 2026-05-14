@@ -7,7 +7,7 @@ public class DateOperationsExample {
     public static void main(String[] args) {
 
         /**
-         * Exemplos de calculos reais que aparecem no dia a dia de desenvlvimento
+         * Exemplos de cálculos reais que aparecem no dia a dia de desenvlvimento
          */
 
         LocalDate now = LocalDate.now();
@@ -35,7 +35,7 @@ public class DateOperationsExample {
         System.out.println("Início do mês: " + firstDay);
         System.out.println("Fim do mês: "    + lastDay);
 
-        // 5. Dias úteis no mês (sem fins de semana)
+        // 5. Dias úteis no mês (sem fins de semana) (.filter = Stream)
         long BusinessDays = firstDay.datesUntil(lastDay.plusDays(1))
                 .filter(d -> d.getDayOfWeek() != DayOfWeek.SATURDAY &&
                         d.getDayOfWeek() != DayOfWeek.SUNDAY)
