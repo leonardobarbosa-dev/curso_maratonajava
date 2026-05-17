@@ -1,6 +1,7 @@
 package com.leonardobarbosa.javastudy.utils.date;
 
 import java.time.LocalDateTime;
+import java.time.temporal.ChronoUnit;
 
 public class LocalDateTimeExample {
     public static void main(String[] args) {
@@ -20,6 +21,15 @@ public class LocalDateTimeExample {
         O ISO 8601 é um padrão internacional para representar datas e horas de forma padronizada, sem ambiguidade.
         Padrão → yyy-MM-ddTHH:mm:ss (T separador)
          */
+
+        // Distância
+        LocalDateTime birth = LocalDateTime.of(1999, 4, 4, 10, 30);
+        long birthMonths = ChronoUnit.MONTHS.between(birth, now);
+        long birthWeeks = ChronoUnit.WEEKS.between(birth, now);
+        long birthDays = ChronoUnit.DAYS.between(birth, now);
+        long birthHours= ChronoUnit.HOURS.between(birth, now);
+        long birthMinutes = ChronoUnit.MINUTES.between(birth, now);
+        System.out.println(birthWeeks);
 
         /*
         Os metodos são basicamente os mesmos de LocalDate e LocalTime, porém aqui tem os dois juntos

@@ -17,8 +17,9 @@ public class ZonedDateTimeExample {
 
         // Exemplo
         ZonedDateTime sp = ZonedDateTime.now(ZoneId.of("America/Sao_Paulo"));
-        ZonedDateTime systemNow = ZonedDateTime.now(ZoneId.systemDefault());    // Zona do sistema
+        ZonedDateTime systemNow = ZonedDateTime.now(ZoneId.systemDefault());    // Hora + Data + Zona do sistema
         System.out.println(sp);
+        System.out.println(ZoneId.systemDefault()); // Zona do sistema
 
         // Conversão - converte um horário já existente para outro fuso, sem mudar o instante real
         ZonedDateTime newYear = ZonedDateTime.of(2026, 12, 31, 23, 59, 59, 0, ZoneId.of("America/Recife"));

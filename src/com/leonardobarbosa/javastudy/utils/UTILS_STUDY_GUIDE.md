@@ -18,11 +18,7 @@ Review order:
    - WrapperCachingExample
    - NullHandlingExample
 
-3. Numbers  
-
-4. Collections 
-
-5. Dates
+3. Dates
    - LegacyDateExample
    - LegacyCalendarExample
    - LocalDateExample
@@ -35,7 +31,16 @@ Review order:
    - DateOperationsExample
    - LegacyToNewApiExample
 
-6. Random
+4. ResourceBundle
+   - Resource Bundle 'messages'
+   - ResourceBundleExample
 
-7. Formatting
+Numbers  
+
+Collections 
+
+
+Random
+
+Formatting
 
