@@ -10,6 +10,15 @@ public class ResourceBundleExample {
 
         /**
          * ResourceBundle - Internacionalização de mensagens
+         * Externaliza textos do código em arquivos .properties
+
+         * Conversão de nomes dos arquivos:
+         * messages_en_US.properties    - idioma + país
+         * message_en.properties    - só o idioma (sem país)
+         * message.properties   - fallback (usado quando nenhum bate)
+         * Ordem de busca = (idioma + país) -> (só idioma) -> (fallback)
+
+         * Criar o arquivo .properties na pasta src do projeto
          */
 
         // getString() -> Retorna valor pela chave

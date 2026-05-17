@@ -1,4 +1,4 @@
-package com.leonardobarbosa.javastudy.utils.strings;
+package com.leonardobarbosa.javastudy.utils.string.regex;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

@@ -1,4 +1,4 @@
-package com.leonardobarbosa.javastudy.utils.strings;
+package com.leonardobarbosa.javastudy.utils.string;
 
 public class StringMethodsExample {
     public static void main(String[] args) {
