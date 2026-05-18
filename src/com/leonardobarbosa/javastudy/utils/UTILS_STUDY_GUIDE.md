@@ -9,7 +9,6 @@ Review order:
    - StringFormattingExample
    - StringConversionExample
    - StringComparisonExample
-   - RegexBasicsExample
 
 2. Wrappers
    - WrapperBasicsExample
@@ -34,6 +33,10 @@ Review order:
 4. ResourceBundle
    - Resource Bundle 'messages'
    - ResourceBundleExample
+
+5. string.regex
+   - RegexBasicsExample
+   - QuantifiersExample
 
 Numbers  
 

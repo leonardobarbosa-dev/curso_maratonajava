@@ -11,19 +11,20 @@ public class RegexBasicsExample {
          * - Regex é uma linguagem para descrever padrões em texto
          * - Java usa java.util.regex.Pattern e Matcher
          * - String possui atalhos: matches(), replaceAll(), split() que aceitam regex
-         *
-         * PADRÕES ESSENCIAIS:
+
+         * PADRÕES ESSENCIAIS (Meta caracteres):
          * .       -> qualquer caractere
          * \d      -> dígito [0-9]       |      \D -> não dígito
          * \w      -> palavra [a-zA-Z0-9_] |    \W -> não palavra
-         * \s      -> espaço/tab/newline  |     \S -> não espaço
+         * \s      -> espaço/tab/newline  |     \S -> não espaço (tudo dentro do texto, exceto espaços)
          * ^       -> início da string
          * $       -> fim da string
-         * +       -> 1 ou mais
-         * *       -> 0 ou mais
-         * ?       -> 0 ou 1
+         * +       -> uma ou mais
+         * *       -> zero ou mais
+         * ?       -> zero ou 1
          * {n,m}   -> entre n e m vezes
          * [abc]   -> a, b ou c
+         * [a-zA-Z]-> de a até z (minúsculo), de A até Z (maisúsculo)
          * (a|b)   -> a ou b
          */
 
