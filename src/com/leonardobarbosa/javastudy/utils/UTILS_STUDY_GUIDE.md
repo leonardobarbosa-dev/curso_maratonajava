@@ -37,13 +37,8 @@ Review order:
 5. string.regex
    - RegexBasicsExample
    - QuantifiersExample
+   - RegexWithSxannerExample
 
-Numbers  
-
-Collections 
-
-
-Random
-
-Formatting
+6. IO
+   - FileExample
 
